@@ -11,8 +11,12 @@ app.get("/",function(req,res){
 app.get("/contact",function(req,res){
     res.sendFile(__dirname+"/frontend/html/Contact.html");
 })
+const port = Process.env.PORT || 3000;
 
-app.listen(3000,function()
-{
-    console.log("server started at port 3000");
-})
+app.listen(port , ()=>{
+       console.log("server started at port"+port);
+});
+//app.listen(3000,function()
+//{
+  //  console.log("server started at port 3000");
+//});
