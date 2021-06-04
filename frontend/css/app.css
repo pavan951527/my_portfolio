@@ -228,7 +228,7 @@
     width: 380px;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 640px) {
   .imgprofile {
     width: 350px;
   }

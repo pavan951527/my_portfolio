@@ -238,16 +238,19 @@ textarea {
     width: 80px;
   }
   .orClass {
-    left: 190px;
+    left: 175px;
   }
   .sendingsub {
     width: 360px;
   }
   input {
-    width: 300px;
+    width: 310px;
+  }
+  textarea {
+    width: 310px;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 640px) {
   .contactMe {
     width: 370px;
   }
@@ -259,12 +262,15 @@ textarea {
     width: 70px;
   }
   .orClass {
-    left: 190px;
+    left: 170px;
   }
   .sendingsub {
     width: 340px;
   }
   input {
-    width: 270px;
+    width: 280px;
+  }
+  textarea {
+    width: 280px;
   }
 }
