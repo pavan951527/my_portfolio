@@ -223,6 +223,12 @@
   }
 }
 
+@media (max-width: 698px) {
+  .imgprofile {
+    width: 380px;
+  }
+}
+
 @media screen and (max-width: 1185px) {
   .burger {
     display: block;
