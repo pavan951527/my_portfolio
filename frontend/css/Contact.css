@@ -189,7 +189,6 @@ textarea {
     transition: 0.5s;
   }
   .nav-options .ul .list {
-    opacity: 500%;
     display: block;
     margin-top: 10px;
     box-shadow: 0 -35.2px 30.2px rgb(0 0 0 / 3%), 0 1.7px 19.3px rgb(0 0 0),
