@@ -110,10 +110,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   margin-bottom: 30px;
 }
-.postssub {
+.postssub a {
+  text-decoration: none;
+  font-family: "Baloo Bhai 2", cursive;
+  color: black;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
@@ -128,7 +130,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.postssub:hover {
+.postssub a:hover {
   transform: scale(105%);
 }
 .postimage img {
@@ -140,30 +142,33 @@ body {
   margin-right: 10px;
   height: 300px;
 }
+
 .postdata {
   margin-top: 5px;
   margin-right: 5px;
 }
 
-.add {
-  color: white;
-  position: fixed;
-  bottom: 20px;
-  right: 290px;
-  background-image: url("/images/top-view-book-old-wooden-plank-background-vintage-effect-style-pictures.jpg");
-  border: none;
-  height: 50px;
-  width: 50px;
-  font-size: 4rem;
-  cursor: pointer;
-}
 .buttontext {
-  position: absolute;
-  top: -9;
+  color: black;
+  position: fixed;
+  right: 291px;
+  background-image: url("/images/top-view-book-old-wooden-plank-background-vintage-effect-style-pictures.jpg");
+  bottom: 10px;
+  border-radius: 3px;
 }
-.add:hover {
+.buttontext a {
+  color: white;
+  padding-bottom: 10px;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+
+.buttontext a:hover {
   color: rgb(212, 205, 205);
-  box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.44);
 }
 @media (min-width: 300px), (max-width: 530px) {
   .posts {
@@ -187,7 +192,7 @@ body {
   }
 }
 @media (min-width: 530px), (max-width: 1418px) {
-  .add {
+  .buttontext {
     right: 20px;
   }
 }
